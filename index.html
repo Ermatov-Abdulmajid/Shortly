@@ -16,44 +16,77 @@
     
     <header class="header">
         <div class="container site-header">
-
+            
             <a class="site-header__img" href="#">
                 <img class="site-header__logo" src="img/Shortly.svg" alt="logo" width="120" height="32">
             </a>
-
+            
             <nav class="sitenav">
                 <div class="sitenav">
                     <ul class="sitenav__list">
-                        <li class="sitenav__item">Features</li>
-                        <li class="sitenav__item">Pricing</li>
-                        <li class="sitenav__item">Resources</li>
+                        <a class="sitenav__link" href="#"><li class="sitenav__item">Features</li></a>
+                        <a class="sitenav__link" href="#"><li class="sitenav__item">Pricing</li></a>
+                        <a class="sitenav__link" href="#"><li class="sitenav__item">Resources</li></a>
                     </ul>
                 </div>
             </nav>
-
+            
             <div class="login">
                 <a class="login__link" href="#">Login</a>
                 <a class="button-link" href="#">Sign Up</a>
             </div>
-
+            
         </div>
     </header>
-
+    
     <!-- Hero -->
-<div class="hero container">
-    <div class="hero__wrapper hero-section">
-        <div class="hero-section__inner">
-            <h1 class="hero__heading">More than just<br>shorter links</h1>
-            <p class="hero__text">Build your brand’s recognition and get detailed<br>insights on how your links are performing.</p>
-            <a class="button-link hero__button" href="#">Get Started</a>
+    <div class="hero container">
+        <div class="hero__inner hero-section">
+            <div class="hero-section__inner">
+                <h1 class="hero__heading">More than just<br>shorter links</h1>
+                <p class="hero__text">Build your brand’s recognition and get detailed<br>insights on how your links are performing.</p>
+                <a class="button-link hero__link" href="#">Get Started</a>
+            </div>
+            
+            <div class="hero__png">
+                <img class="hero-img" src="img/working_with_computer.png" alt="working with computer" width="733" height="482">
+            </div>
+            
         </div>
-
-        <div class="hero__png">
-            <img class="hero-img" src="img/working_with_computer.png" alt="working with computer" width="733" height="482">
-        </div>
-
+        
+        
     </div>
-</div>
+    
+    <!-- Feature -->
+    <section class="feature">
+        <div class="container">
+            
+            <section class="feature-url">
+                
+                <form class="feature__form" action="https://echo.htmlacademy.ru" method="post">
+                    <div class="feature__input-wrapper">
+                        <input class="feature__input" type="url" name="url" placeholder="Shorten a link here..." id="input" required>
+                        <div class="feature__error">Please add a link</div>
+                    </div>
+                    <button class="button-link feature__button" type="submit">Shorten It!</button>
+                </form>
+            </section>
+            
+            <div class="feature__wrapper">
+                <h2 class="feature__heading">Advanced Statistics</h2>
+                <p class="feature-text">Track how your links are performing across the web with<br>our advanced statistics dashboard.</p>
+            </div>
+            
+            <div class="feature-list-wrapper">
+                <ul class="feature-list-wrapper__list">
+                    <li class="feature-list-wrapper__item">
+                    </li>
+                </ul>
+            </div>
+            
+            
+        </div>
+    </section>        
     
     <script src="js/main.js"></script>
 </body>
