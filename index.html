@@ -24,9 +24,9 @@
             <nav class="sitenav">
                 <div class="sitenav">
                     <ul class="sitenav__list">
-                        <a class="sitenav__link" href="#"><li class="sitenav__item">Features</li></a>
-                        <a class="sitenav__link" href="#"><li class="sitenav__item">Pricing</li></a>
-                        <a class="sitenav__link" href="#"><li class="sitenav__item">Resources</li></a>
+                        <li class="sitenav__item"><a class="sitenav__link" href="#">Features</a></li>
+                        <li class="sitenav__item"><a class="sitenav__link" href="#">Pricing</a></li>
+                        <li class="sitenav__item"><a class="sitenav__link" href="#">Resources</a></li>
                     </ul>
                 </div>
             </nav>
@@ -51,10 +51,7 @@
             <div class="hero__png">
                 <img class="hero-img" src="img/working_with_computer.png" alt="working with computer" width="733" height="482">
             </div>
-            
         </div>
-        
-        
     </div>
     
     <!-- Feature -->
@@ -62,29 +59,29 @@
         <div class="container">
             
             
-            <section class="feature__url">
-                <form class="feature__form" action="https://echo.htmlacademy.ru" method="post">
+            <div class="feature__url">
+                <form class="feature__form" id="urlform" action="https://htmlacademy.ru" method="post">
                     <div class="feature__input-wrapper">
                         <input class="feature__input" type="url" name="url" placeholder="Shorten a link here..." id="input" required>
                         <div class="feature__error">Please add a link</div>
                     </div>
-                    <button class="button-link feature__button" type="submit">Shorten It!</button>
+                    <button class="button-link feature__button" type="submit" id="sport">Shorten It!</button>
                 </form>
-            </section>
+            </div>
             
-            <div class="feature-url__results">
+            <div class="feature-url__results" id="rusultsopen">
                 <div class="feature-url__results-inner">   
                     <div class="feature-url__result">https://www.frontendmentor.io</div>
                     <a class="feature-url__link" href="#" target="_blank">https://rel.ink/k4lKyk</a>
                     <button class="button-link feature-url__button" type="button">Copy</button>
                 </div>
-
+                
                 <div class="feature-url__results-inner">
                     <div class="feature-url__result">https://twitter.com/frontendmentor</div>
                     <a  class="feature-url__link" href="#" target="_blank">https://rel.ink/gxOXp9</a>
                     <button class="button-link feature-url__button" type="button">Copy</button>
                 </div>
-
+                
                 <div class="feature-url__results-inner">
                     <div class="feature-url__result">https://www.linkedin.com/company/frontend-mentor</div>
                     <a class="feature-url__link" href="#" target="_blank">https://rel.ink/gob3X9</a>
@@ -109,5 +106,6 @@
     </section>        
     
     <script src="js/main.js"></script>
+    
 </body>
 </html>
