@@ -56,10 +56,9 @@
     
     <!-- Feature -->
     <section class="feature">
-        <div class="container">
+        <div class="container url-shortener">
             
-            
-            <div class="feature__url">
+            <div class="feature__url js-url-shortener">
                 <form class="feature__form" id="urlform" action="https://htmlacademy.ru" method="post">
                     <div class="feature__input-wrapper">
                         <input class="feature__input" type="url" name="url" placeholder="Shorten a link here..." id="input" required>
@@ -67,9 +66,8 @@
                     </div>
                     <button class="button-link feature__button" type="submit" id="sport">Shorten It!</button>
                 </form>
-            </div>
-            
-            <div class="feature-url__results" id="rusultsopen">
+                
+                <div class="feature-url__results" id="rusultsopen">
                 <div class="feature-url__results-inner">   
                     <div class="feature-url__result">https://www.frontendmentor.io</div>
                     <a class="feature-url__link" href="#" target="_blank">https://rel.ink/k4lKyk</a>
@@ -88,21 +86,23 @@
                     <button class="button-link feature-url__button" type="button">Copy</button>
                 </div>
             </div>
-            
+        </div>
+    </div>
+        
+        <div class="container">
             <div class="feature__wrapper">
                 <h2 class="feature__heading">Advanced Statistics</h2>
                 <p class="feature-text">Track how your links are performing across the web with<br>our advanced statistics dashboard.</p>
             </div>
-            
             <div class="feature-list-wrapper">
                 <ul class="feature-list-wrapper__list">
                     <li class="feature-list-wrapper__item">
                     </li>
                 </ul>
             </div>
-            
-            
         </div>
+        
+        
     </section>        
     
     <script src="js/main.js"></script>

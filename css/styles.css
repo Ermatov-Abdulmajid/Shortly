@@ -208,6 +208,11 @@ select:-webkit-autofill:focus {
 }
 
 /* FORM */
+.url-shortener{
+    display: flex;
+    flex-direction: column;
+}
+
 .feature__form {
     margin-top: -84px;
     display: flex;
@@ -319,16 +324,19 @@ select:-webkit-autofill:focus {
 .feature-url__button {
     min-width: 103px;
     color: var(--white-color);
-    padding: 10px 31px 7px 31px;
+    padding: 10px 21px 7px 21px;
     border: 0;
     border-radius: 5px;
     cursor: pointer;
 }
 
+.feature-url__button--copied {
+    background-color: #3a3054;
+}
+
 /*Feature */
 .feature {
     background-color: #eff1f7;
-    padding-bottom: 100px;
 }
 
 .feature__wrapper {
