@@ -218,7 +218,6 @@ select:-webkit-autofill:focus {
     margin-top: -84px;
     margin-bottom: 24px;
     display: flex;
-    align-items: center;
     background-color: #3a3054;
     border-radius: 10px;
     background-image: url(../img/feature\ input\ bg.svg);
@@ -254,7 +253,7 @@ select:-webkit-autofill:focus {
     border: 0;
     font-size: 20px;
     border-radius: 10px;
-    padding: 24px 40px 21px 41px;
+    padding: 18px 40px 16px 41px;
 }
 
 .feature__input:not(:focus):not(:placeholder-shown):invalid {
